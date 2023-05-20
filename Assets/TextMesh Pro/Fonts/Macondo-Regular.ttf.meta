@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 38db9ae9688557740a2ac0e42a9e48bb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Macondo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9405c44b6eab14640ab470ca54a1a1f4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
