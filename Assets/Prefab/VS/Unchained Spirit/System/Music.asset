@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Music
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-21.26895,"y":-23.71159},"zoom":0.6999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-196.0,"y":-191.0},"guid":"a4145974-7e40-4845-bb5b-5be06ebd4329","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-216.0,"y":47.0},"guid":"0cb0014c-05d7-450a-9112-1a1cd2d72739","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"member":{"name":"clip","parameterTypes":null,"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":90.0,"y":-136.0},"guid":"9c4a7fdd-51c4-4368-b21e-e892e3a6b31d","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"chainable":false,"member":{"name":"loop","parameterTypes":null,"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"input":{"$content":true,"$type":"System.Boolean"}},"position":{"x":513.0,"y":-182.0},"guid":"21708831-ae6a-4dfc-b203-543ee56ad2cd","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"chainable":false,"parameterNames":[],"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":323.0,"y":-172.0},"guid":"ac50b171-b6ff-4c83-b0e4-e2c426791c38","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"sourceUnit":{"$ref":"13"},"sourceKey":"assigned","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"a7ab945e-3a91-4c27-b03b-5b344949ad33","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"ca327e4a-bd04-4067-ba3f-68173bf251e8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"33468189-5ffa-4279-bf74-e3514f98a7bb","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 699f747f22c544445b5f6dd9c9994f4f, type: 3}

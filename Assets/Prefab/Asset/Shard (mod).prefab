@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4903512683460673182}
   - component: {fileID: 8332536012366721339}
   - component: {fileID: 6073079989544437233}
-  - component: {fileID: 4865716854509396607}
   - component: {fileID: 4865716854509396592}
   - component: {fileID: 4865716854509396595}
+  - component: {fileID: 5387455752318463408}
   m_Layer: 0
   m_Name: Shard (mod)
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5712559266196087844}
-  m_LocalRotation: {x: 0.05031871, y: 0.7887038, z: -0.06514145, w: 0.609238}
+  m_LocalRotation: {x: 0.05031862, y: 0.7887033, z: -0.065141074, w: 0.6092387}
   m_LocalPosition: {x: 68.531, y: 19.894, z: 144.862}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 0
@@ -86,19 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4865716854509396607
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5712559266196087844}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.016951483, y: 0.01376333, z: 0.01970943}
-  m_Center: {x: 0.0016884076, y: 0.0004908414, z: -0.005171639}
 --- !u!114 &4865716854509396592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,3 +117,17 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!136 &5387455752318463408
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5712559266196087844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.017574206
+  m_Height: 0.03514842
+  m_Direction: 1
+  m_Center: {x: 0.001688168, y: 0.0049674823, z: -0.0065120743}

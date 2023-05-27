@@ -9,6 +9,9 @@ TagManager:
   - Weapon
   - Ground
   - SoundManager
+  - HP
+  - spawn
+  - Boss
   layers:
   - Default
   - TransparentFX

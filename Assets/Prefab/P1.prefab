@@ -942,6 +942,7 @@ GameObject:
   - component: {fileID: 7491738382574882724}
   - component: {fileID: 7660387978326976774}
   - component: {fileID: 1014785183}
+  - component: {fileID: -2127040663174053339}
   m_Layer: 3
   m_Name: P1
   m_TagString: Player
@@ -1013,8 +1014,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 28.243532, y: 59.59442, z: 26.096287}
-  m_Center: {x: -0.76618433, y: 52.306213, z: -0.45128822}
+  m_Size: {x: 26.470137, y: 73.49129, z: 21.270256}
+  m_Center: {x: -1.6528845, y: 46.37127, z: 1.9617271}
 --- !u!114 &7491738382574882724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,6 +1143,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-2127040663174053339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281187907805640560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df96669965cb4d29a0176903c854365a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6459483248284486756
 GameObject:
   m_ObjectHideFlags: 0
